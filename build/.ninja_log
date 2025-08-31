@@ -1,0 +1,5 @@
+# ninja log v7
+26	2323	1756613169631785948	CMakeFiles/_quantengine.dir/src/quantengine/bindings.cpp.o	a1a8b858f1d41be
+2323	3137	1756613171928591209	_quantengine.cpython-312-darwin.so	ba1c5f3c98900a3e
+26	2342	1756613344799286933	CMakeFiles/_quantengine.dir/src/quantengine/bindings.cpp.o	d06d800f489e610d
+2342	3163	1756613347114667601	_quantengine.cpython-312-darwin.so	ba1c5f3c98900a3e
