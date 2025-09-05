@@ -48,7 +48,7 @@ namespace daniel {
          Tick t;
          while (running_) {
             bool any = false;
-            while (ring_.pop(t)) {           // drain batch
+            while (ring_.pop(t)) {           
                any = true;
                window_.push(t);
                if (++since >= recompute_every_) {
@@ -58,7 +58,6 @@ namespace daniel {
                }
                }
                if (!any) {
-               // idle a touch; tune for your box
                std::this_thread::sleep_for(std::chrono::microseconds(50));
                }
             }
